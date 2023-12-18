@@ -1,18 +1,17 @@
 #include <iostream>
-#include <iostream>
 
 using namespace std;
 
 #include "weather-prepositions.h"
 #include "file_reader.h"
 #include "constants.h"
+#include "manipulations.h"
 
 int main()
 {
-    std::cout << "Hello\n";
     setlocale(LC_ALL, "Russian");
     cout << "Laboratory N8. GIT\n";
-    cout << "Variant N3. Weather";
+    cout << "Variant N3. Weather\n";
     cout << "Author: Klimov Vladislav\n\n";
     prp_stuff* subscriptions[MAX_FILE_ROWS_COUNT];
     int size;
@@ -31,10 +30,12 @@ int main()
         {
             delete subscriptions[i];
         }
+
     }
     catch (const char* error)
     {
         cout << error << '\n';
     }
+   
     return 0;
 }
