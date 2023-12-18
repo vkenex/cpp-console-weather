@@ -24,6 +24,9 @@
     <ClCompile Include="functions.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="process.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="data.txt">
@@ -41,6 +44,9 @@
       <Filter>Исходные файлы</Filter>
     </ClInclude>
     <ClInclude Include="functions.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="process.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
   </ItemGroup>
